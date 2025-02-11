@@ -22,7 +22,7 @@ jobs:
 
         - name: build docker image
           run: |
-            docker build -t gideonlevy/html1:latest .
+            docker build -t bspd-activity1 .
 
         - name: tag and push to docker hub
           run: |
